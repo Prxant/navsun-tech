@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('partials/header') %>
+</head>
+<body>
+<h1 style="text-align: center; color: #2fe0b4; margin-top: 30px;">Add New Tech Topic</h1>
+<div style="text-align: center; margin-bottom: 20px;">
+  <a href="/" style="color: #8ab4f8; text-decoration: none;">⬅️ Back to Home</a>
+</div>
+
+<form action="/add-topic" method="POST" style="display: flex; flex-direction: column; align-items: center; gap: 15px; max-width: 800px; margin: auto;">
+  <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+    <input type="text" name="id" placeholder="Unique ID (e.g. ai-tools)" required style="flex: 1; min-width: 250px; padding: 10px; border-radius: 8px;">
+    <input type="text" name="title" placeholder="Full title (e.g. How AI Tools Work?)" required style="flex: 2; min-width: 250px; padding: 10px; border-radius: 8px;">
+    <input type="text" name="image" placeholder="/images/ai.jpg" required style="flex: 1; min-width: 250px; padding: 10px; border-radius: 8px;">
+  </div>
+
+  <textarea name="summary" placeholder="Short summary..." required style="width: 100%; max-width: 800px; padding: 10px; height: 60px; border-radius: 8px;"></textarea>
+  <textarea name="details" placeholder="Full explanation..." required style="width: 100%; max-width: 800px; padding: 10px; height: 120px; border-radius: 8px;"></textarea>
+
+  <button type="submit" style="background-color: #a78bfa; color: white; border: none; padding: 10px 20px; border-radius: 8px; font-weight: bold; cursor: pointer;">
+    ➕ Add Topic
+  </button>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "wifi",
+    "title": "How Wi-Fi Works?",
+    "image": "/images/wifi.png",
+    "summary": "Wi-Fi lets devices connect wirelessly using radio waves between 2.4GHz and 5GHz.",
+    "details": "Wi-Fi, or Wireless Fidelity, is a wireless networking technology that uses radio waves to provide high-speed internet and network connections.<br><br>It works over frequencies such as 2.4 GHz and 5 GHz. Devices communicate with a router, which connects to the internet.<br><br>Wi-Fi has become the standard for local wireless networks in homes, offices, and public places."
+  },
+  {
+    "id": "bluetooth",
+    "title": "How Bluetooth Transfers Files?",
+    "image": "/images/blue.png",
+    "summary": "Bluetooth sends data using short-range UHF radio waves in the 2.4 GHz band.",
+    "details": "Bluetooth transfers data using low-power radio waves in the 2.4 GHz band.<br><br>Devices are paired and establish a personal area network (PAN).<br><br>It's commonly used for wireless headphones, file sharing, and IoT communication."
+  },
+  {
+    "id": "chatgpt",
+    "title": "How ChatGPT Works?",
+    "image": "/images/chatgpt.png",
+    "summary": "ChatGPT uses a deep learning model trained on massive text data to generate responses.",
+    "details": "ChatGPT is powered by a deep learning model called a transformer, specifically OpenAI's GPT.<br><br>It has been trained on a massive amount of text data to predict the next word in a sequence.<br><br>When you ask it something, it processes your input, understands context, and generates a human-like response based on patterns it learned during training."
+  },
+  {
+    "id": "iphone9",
+    "title": "why there is no iphone 9",
+    "image": "/images/win9.jpg",
+    "summary": "why there is iphone 9 exist here is the reason",
+    "details": "10th Anniversary Celebration: The iPhone X (pronounced \"iPhone Ten\") was released in 2017 to commemorate the 10th anniversary of the original iPhone.<br><br>Apple chose to use the Roman numeral \"X\" to signify this milestone, making it a more fitting tribute than simply naming it the iPhone 9.<br><br>Significant Upgrade: The iPhone X represented a major leap in technology and design compared to its predecessors.<br><br>It introduced features such as an edge-to-edge OLED display, Face ID, and the removal of the home button.<br><br>This dramatic shift in design and functionality warranted a new naming convention that distinguished it from the iPhone 8 and 8 Plus, which were more incremental upgrades.<br><br>Marketing Strategy: By skipping the iPhone 9, Apple aimed to create a clear distinction between the older models and the new flagship device.<br><br>This strategy helped to position the iPhone X as a premium product, emphasizing its innovative features and justifying its higher price point.<br><br>Cultural Considerations: Some speculation exists around the idea that Apple may have avoided the number 9 due to superstitions in certain cultures, similar to how Microsoft skipped Windows 9 in favor of Windows 10.<br><br>However, this theory lacks substantial evidence."
+  },
+  {
+    "id": "quantum-computing",
+    "title": "How Quantum Computing Works",
+    "image": "/images/quantum.jpg.png",
+    "summary": "Quantum computers use qubits instead of bits to perform calculations at massive speed.",
+    "details": "Unlike classical computers that use bits (0 or 1), quantum computers use **qubits**, which can be both 0 and 1 at the same time (a property called **superposition**).<br><br>This allows them to process a vast number of possibilities in parallel.<br><br>Another core concept is **entanglement**, where qubits are linked together — changing one affects the other instantly, no matter the distance.<br><br>Quantum computing is extremely powerful for solving complex problems like protein folding, material simulation, and cryptography.<br><br>However, it is still in the early stages and requires extremely cold temperatures and stable environments to function correctly.<br><br>In short, quantum computers are not faster than classical computers for all tasks, but they **shine in very specific high-complexity problems**."
+  },
+  {
+    "id": "blockchain",
+    "title": "How Blockchain Works",
+    "image": "/images/blockchain.jpg.png",
+    "summary": "Blockchain is a decentralized ledger technology that securely records transactions across multiple computers.",
+    "details": "Blockchain is a distributed ledger technology that allows multiple parties to maintain a shared database without a central authority.<br><br>Each block contains a list of transactions, a timestamp, and a cryptographic hash of the previous block, forming a chain.<br><br>This structure ensures data integrity and security, as altering any block would require changing all subsequent blocks.<br><br>Blockchain is the backbone of cryptocurrencies like Bitcoin and has applications in supply chain management, voting systems, and more."
+  },
+  {
+    "id": "machine-learning",
+    "title": "How Machine Learning Works",
+    "image": "/images/machine-learning.jpg.png",
+    "summary": "Machine learning uses algorithms to analyze data, learn from it, and make predictions or decisions.",
+    "details": "Machine learning is a subset of artificial intelligence that enables systems to learn from data and improve their performance over time without being explicitly programmed.<br><br>It involves training algorithms on large datasets to recognize patterns and make predictions.<br><br>Common techniques include supervised learning (using labeled data), unsupervised learning (finding patterns in unlabeled data), and reinforcement learning (learning through trial and error).<br><br>Applications range from image recognition to natural language processing."
+  },
+  {
+    "id": "internet-of-things",
+    "title": "How Internet of Things (IoT) Works",
+    "image": "/images/iot.jpg.png",
+    "summary": "IoT connects everyday devices to the internet, allowing them to send and receive data.",
+    "details": "The Internet of Things (IoT) refers to the network of physical objects embedded with sensors, software, and other technologies that connect to the internet.<br><br>These devices collect and exchange data, enabling remote monitoring and control.<br><br>IoT applications include smart homes, wearable devices, industrial automation, and smart cities.<br><br>The key components are sensors for data collection, connectivity for communication, and cloud computing for data processing and storage."
+  },
+  {
+    "id": "augmented-reality",
+    "title": "How Augmented Reality (AR) Works",
+    "image": "/images/ar.jpg.png",
+    "summary": "AR overlays digital information onto the real world, enhancing user experiences.",
+    "details": "Augmented Reality (AR) combines digital content with the real world, enhancing the user's perception of their environment.<br><br>It uses devices like smartphones, tablets, or AR glasses to display computer-generated images, sounds, or other data overlaid on the physical world.<br><br>AR applications range from gaming and education to retail and healthcare, providing interactive experiences that blend virtual elements with reality."
+  },
+  {
+    "id": "virtual-reality",
+    "title": "How Virtual Reality (VR) Works",
+    "image": "/images/vr.jpg.png",
+    "summary": "VR immerses users in a computer-generated environment, simulating real or imaginary worlds.",
+    "details": "Virtual Reality (VR) creates a fully immersive digital environment that users can interact with using specialized equipment like VR headsets and controllers.<br><br>It simulates real or imaginary worlds by tracking the user's movements and adjusting the display accordingly.<br><br>VR is widely used in gaming, training, education, and therapy, providing a sense of presence and engagement that traditional media cannot achieve."
+  },
+  {
+    "id": "5g-technology",
+    "title": "How 5G Technology Works",
+    "image": "/images/5g.jpg.png",
+    "summary": "5G technology uses higher frequency bands to provide faster data speeds and lower latency.",
+    "details": "5G is the fifth generation of mobile network technology, designed to deliver faster data speeds, lower latency, and greater capacity than previous generations.<br><br>It uses higher frequency bands, including millimeter waves, to transmit data more efficiently.<br><br>5G supports a wide range of applications, from enhanced mobile broadband to IoT connectivity, enabling smart cities, autonomous vehicles, and advanced healthcare solutions."
+  },
+  {
+    "id": "cybersecurity",
+    "title": "How Cybersecurity Works",
+    "image": "/images/cybersecurity.jpg.png",
+    "summary": "Cybersecurity protects systems, networks, and data from digital attacks and unauthorized access.",
+    "details": "Cybersecurity involves protecting computer systems, networks, and data from digital attacks, theft, and damage.<br><br>It encompasses various practices, including encryption, firewalls, intrusion detection systems, and secure coding.<br><br>Cybersecurity aims to ensure confidentiality, integrity, and availability of information.<br><br>It is crucial for individuals and organizations to safeguard against cyber threats such as malware, phishing, and ransomware."
+  },
+  {
+    "id": "cloud-computing",
+    "title": "How Cloud Computing Works",
+    "image": "/images/cloud-computing.jpg.png",
+    "summary": "Cloud computing delivers computing services over the internet, allowing on-demand access to resources.",
+    "details": "Cloud computing provides on-demand access to computing resources such as servers, storage, databases, and software over the internet.<br><br>It eliminates the need for local infrastructure and allows users to scale resources up or down as needed.<br><br>Cloud services are typically categorized into three models: Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS).<br><br>Major cloud providers include Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform."
+  },
+  {
+    "id": "artificial-intelligence",
+    "title": "How Artificial Intelligence (AI) Works",
+    "image": "/images/ai.jpg.png",
+    "summary": "AI simulates human intelligence in machines to perform tasks like learning, reasoning, and problem-solving.",
+    "details": "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn.<br><br>AI systems can perform tasks such as speech recognition, image analysis, natural language processing, and decision-making.<br><br>They use algorithms and large datasets to improve their performance over time.<br><br>AI is applied in various fields, including healthcare, finance, autonomous vehicles, and customer service."
+  },
+  {
+    "id": "edge-computing",
+    "title": "How Edge Computing Works",
+    "image": "/images/edge-computing.jpg.png",
+    "summary": "Edge computing processes data closer to the source, reducing latency and bandwidth usage.",
+    "details": "Edge computing brings computation and data storage closer to the location where it is needed, reducing latency and bandwidth usage.<br><br>By processing data at the edge of the network, devices can respond faster and operate more efficiently.<br><br>This is particularly important for IoT applications, real-time analytics, and applications requiring low latency.<br><br>Edge computing complements cloud computing by offloading some processing tasks to local devices."
+  },
+  {
+    "id": "neural-networks",
+    "title": "How Neural Networks Work",
+    "image": "/images/neural-networks.jpg.png",
+    "summary": "Neural networks are algorithms inspired by the human brain that recognize patterns in data.",
+    "details": "Neural networks are a subset of machine learning algorithms designed to recognize patterns in data.<br><br>They consist of interconnected nodes (neurons) organized in layers, mimicking the structure of the human brain.<br><br>Each neuron processes input data and passes it through activation functions to produce an output.<br><br>Neural networks are widely used in image recognition, natural language processing, and other complex tasks."
+  }
+]

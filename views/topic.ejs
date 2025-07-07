@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('partials/header') %>
+</head>
+<body>
+
+<div class="container" style="max-width: 900px; margin: auto; padding: 30px;">
+
+
+  <div style="margin-bottom: 20px;">
+    <a href="/" style="text-decoration: none; color: #a78bfa; font-weight: bold;">
+      ⬅️ Back to Topics
+    </a>
+  </div>
+
+
+  <h1 style="font-size: 2.5rem; color: #2fe0b4; text-align: center;">
+    <i class="fas fa-microchip"></i> <%= topic.title %>
+  </h1>
+
+  
+  <div style="text-align: center; margin: 30px 0;">
+    <img src="<%= topic.image %>" alt="<%= topic.title %>" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+  </div>
+
+  <p style="font-size: 1.1rem; font-style: italic; color: #aaa; text-align: center;">
+    📝 <%= topic.summary %>
+  </p>
+
+  <hr style="margin: 30px 0; border: none; border-top: 1px solid #555;">
+
+
+  <div style="line-height: 1.7; font-size: 1.1rem; color: #ddd;">
+    <%= topic.details %>
+  </div>
+
+</div>
+
+<%- include('partials/footer') %>
+</body>
+</html>

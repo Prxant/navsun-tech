@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('partials/header') %>
+  <!-- AOS Scroll Animation -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+
+  <!-- Navbar included from header -->
+  <div class="container">
+    <h1 style="text-align:center; margin-top: 20px;"><i class="fas fa-brain"></i> How Tech Works</h1>
+
+    <!-- Search Input -->
+    <div style="text-align:center; margin-top: 20px;">
+      <input type="text" id="searchInput" placeholder="Search a topic..." 
+        onkeyup="filterTopics()" 
+        style="padding: 12px 16px; width: 90%; max-width: 450px; border-radius: 10px; border: none; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+    </div>
+
+    <!-- Topic Cards -->
+    <div class="card-container" id="topicList">
+      <% topics.forEach(topic => { %>
+        <div class="card" data-aos="fade-up">
+          <img src="<%= topic.image %>" alt="<%= topic.title %>">
+          <h2><%= topic.title %></h2>
+          <p><%= topic.summary %></p>
+          <a href="/topic/<%= topic.id %>">Read More →</a>
+        </div>
+      <% }) %>
+    </div>
+
+    <!-- No match message -->
+    <p id="noResultMessage" style="display:none; color: #ccc; text-align:center; margin-top: 30px;">🚫 No matching topic found.</p>
+  </div>
+
+  <%- include('partials/footer') %>
+
+  <!-- AOS Scroll Animation JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>AOS.init();</script>
+
+  <!-- Search Filter Script -->
+  <script>
+    function filterTopics() {
+      const input = document.getElementById('searchInput').value.toLowerCase();
+      const cards = document.querySelectorAll('#topicList .card');
+      let anyMatch = false;
+
+      cards.forEach(card => {
+        const title = card.querySelector('h2').innerText.toLowerCase();
+        if (title.includes(input)) {
+          card.style.display = 'block';
+          anyMatch = true;
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      document.getElementById('noResultMessage').style.display = anyMatch ? 'none' : 'block';
+    }
+  </script>
+
+</body>
+</html>
