@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('partials/header') %>
+</head>
+<body>
+
+<div style="max-width: 800px; margin: auto; padding: 40px; color: #ddd;">
+
+  <h1 style="text-align: center; font-size: 2.8rem; color: #2fe0b4;">👨‍💻 About Me</h1>
+
+  <p style="font-size: 1.1rem; line-height: 1.8; margin-top: 30px;">
+    Hey there! I’m <strong>Prashant Verma</strong> — a 3rd-year B.Tech CSE student, content creator, and future entrepreneur.
+    I created this platform to help curious minds understand how the technology around us works — from quantum computing to smartphones.
+  </p>
+
+  <p style="font-size: 1.1rem; line-height: 1.8;">
+    🎯 My goal? Build a company, become financially free, and give back to my parents who made everything possible.
+  </p>
+
+  <p style="font-size: 1.1rem; line-height: 1.8;">
+    🎥 I run a tech YouTube channel called <strong>NavSun Tech</strong>, where I explain complex topics in fun, easy ways. This website extends that vision by letting users go deeper into the topics I cover in Shorts and videos.
+  </p>
+
+  <p style="font-size: 1.1rem; line-height: 1.8;">
+    🚀 This is just the beginning. I'm learning new skills every day — from full-stack development to DSA and beyond.
+  </p>
+
+  <div style="margin-top: 40px; text-align: center;">
+    <a href="/" style="text-decoration: none; color: #a78bfa; font-weight: bold;">⬅️ Back to Homepage</a>
+  </div>
+
+</div>
+
+<%- include('partials/footer') %>
+</body>
+</html>
