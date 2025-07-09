@@ -152,3 +152,49 @@ input[type="text"] {
   transform: scale(1.03);
   box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
 }
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #00f7ff;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.card a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #00f7ff;
+  left: 0;
+  bottom: -4px;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+  transform-origin: right;
+}
+
+.card a:hover {
+  color: #00ffff;
+}
+
+.card a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
+  background: #0f172a;
+  padding: 20px;
+  text-align: center;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
